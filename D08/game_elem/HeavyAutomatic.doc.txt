@@ -1,0 +1,10 @@
+<- HeavyAutomatic -------------------------------------------------------------
+The HeavyAutomatic trait is a weapon trait meant to support the children of 
+Spaceship Class.
+Its characteristics are as follows:
+
+	$_charge = 5;
+	$_clrange = 1;
+	$_midrange = 4;
+	$_lgrange = 8;
+------------------------------------------------------------- HeavyAutomatic ->

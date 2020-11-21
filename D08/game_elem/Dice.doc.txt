@@ -1,0 +1,6 @@
+<- Dice ----------------------------------------------------------------------
+The dice class is static. It contains static traits which other Classes can 
+use to return a truly random integer.
+
+Return values from 1 to 6.
+---------------------------------------------------------------------- Dice ->

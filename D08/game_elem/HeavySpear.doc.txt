@@ -1,0 +1,10 @@
+<- HeavySpear ----------------------------------------------------------------
+The HeavySpear trait is a weapon trait meant to support the children of 
+Spaceship Class.
+Its characteristics are as follows:
+
+	$_charge = 0;
+	$_clrange = 30;
+	$_midrange = 60;
+	$_lgrange = 90;
+---------------------------------------------------------------- HeavySpear ->

@@ -1,0 +1,11 @@
+<- Terror -------------------------------------------------------------------
+The Terror trait is meant to support the children of Spaceship Class.
+Its characteristics are as follows:
+
+	$_hull = 6;
+	$_size = "1x5";
+	$_engine = 10;
+	$_speed = 12;
+	$_handle = 4;
+	$_shield = 0;
+------------------------------------------------------------------- Terror ->

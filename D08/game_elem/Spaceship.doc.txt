@@ -1,0 +1,18 @@
+<- Spaceship ------------------------------------------------------------------
+Spaceship Class defines a ship as containing the following private
+traits:
+	title (set to empty),
+	hull strength (set to 5),
+	ship size (set to 1x4),
+	engine power (set to 10),
+	speed (set to 10),
+	handling (set to 2),
+	shield strength (set to 0).
+
+The title will be set by the setName method, which examins any Traits the
+child class utilises before adding "of Doom", "The Destroyer", or "Basic"
+for Terror, Destroyer, and no trait respectively.
+
+A series of set[METHOD] functions will use Trait methods to update the 
+existing private traits if necessary.
+------------------------------------------------------------------ Spaceship ->

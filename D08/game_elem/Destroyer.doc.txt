@@ -1,0 +1,11 @@
+<- Destroyer -------------------------------------------------------------------
+The Destroyer trait is meant to support the children of Spaceship Class.
+Its characteristics are as follows:
+
+	$_hull = 4;
+	$_size = "1x3";
+	$_engine = 10;
+	$_speed = 18;
+	$_handle = 3;
+	$_shield = 0;
+------------------------------------------------------------------- Destroyer ->

@@ -1,0 +1,10 @@
+<- Canon -------------------------------------------------------------------
+The Canon trait is weapon trait meant to support the children of 
+Spaceship Class.
+Its characteristics are as follows:
+
+	$_charge = 0;
+	$_clrange = 10;
+	$_midrange = 20;
+	$_lgrange = 30;
+------------------------------------------------------------------- Canon ->

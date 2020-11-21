@@ -1,0 +1,5 @@
+<- Fleet ----------------------------------------------------------------------
+The Fleet Class will gather any class of Parent Class Spaceship and store
+them into an array for later use.
+
+---------------------------------------------------------------------- Fleet ->
