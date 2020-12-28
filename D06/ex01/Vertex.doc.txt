@@ -1,0 +1,17 @@
+
+<- Vertex ----------------------------------------------------------------------
+Vertex class could be applied to coordinate setting.
+
+It necessarily needs 3 main parameters:
+an 'x', a 'y', and a 'z' coordinate, to represent (as is the convention) the width,
+the height, and the depth respectively.
+
+It further hosts 2 optional parameters:
+a 'w' - a homogeneous coordinate, that is usually used in projective geometry.
+The default value of 'w' is 1.00;
+and a 'color' - used to define the color of the Vertext, using class Color; its
+value is automatically set to the color white.
+
+The above mentioned parameters are private but can be read and written
+thanks to special accessors (the syntax is usual).
+---------------------------------------------------------------------- Vertex ->

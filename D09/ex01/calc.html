@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+	<meta charset="UTF-8">
+	<TITLE>CALCULATE</TITLE>
+	<STYLE>
+	body {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	background-color: rgb(123, 186, 189);}
+	.calc {width: 350px; background-color: white; margin: 10% auto;
+	padding: 90px 50px 50px 50px; position: relative;}
+	.calc .round {height:100px; width: 100px; border-radius: 50px;
+	background-color: rgb(201, 125, 39); position: absolute; top: -50px;
+	left: 150px;}
+	input[type="text"] {height: 30px; width: 275px;}
+	select {text-indent: 130px;}
+	</STYLE>
+	<SCRIPT>
+		var calc;
+		var left;
+		var right;
+		var op;
+
+		window.onload = function() 
+		{
+			calc = document.querySelector("#calc");
+ 			left = document.querySelector("#left");
+			right = document.querySelector("#right");
+			op = document.querySelector("#op");
+			calc.addEventListener("submit", doOP);
+			setInterval("alert('Please, use me...')", 30000)
+		}
+
+		function isNum(l, r)
+		{
+			return l == parseInt(l, 10) && l >= 0 && r == parseInt(r, 10) && r >= 0;
+		}
+
+		function doOP(event)
+		{
+			event.preventDefault();
+			var l = Number(left.value);
+			var r = Number(right.value);
+			if (!isNum(l, r))
+			{
+				alert("Error :(");
+				return ;
+			}
+			switch (op.value)
+			{
+				case ("add"):
+					result(l + r);
+					break;
+				case ("min"):
+					result(l - r);
+					break;
+				case ("mul"):
+					result(l * r);
+					break;
+				case ("div"):
+					if (r === 0)
+						result("It’s over 9000!");
+					else
+						result(l / r);
+						break;
+				case ("mod"):
+					if (r === 0)
+						result("It’s over 9000!");
+					else
+						result(l % r);
+						break;
+				default:
+					result("Error :(");
+			}
+		}
+
+		function result(res)
+		{
+			console.log(res);
+			alert(res);
+		}
+	</SCRIPT>
+</HEAD>
+<BODY>
+	<div>
+	<div class="calc">
+	<div class="circle"></div>
+	<h1>CALCULATE!</h1>
+	<form action="" id="calc">
+		<input type="text" id="left">
+		<select id="op">
+		<option value="add">+</option>
+		<option value="min">-</option>
+		<option value="mul">*</option>
+		<option value="div">/</option>
+		<option value="mod">%</option>
+		</select>
+		<input type="text" id="right">
+		<input type="submit" id="submit" value="Try me!">
+	</form>
+	</div>
+	</div>
+</BODY>
+</HTML>
