@@ -9,7 +9,7 @@ Day 5: error in ex16
 
 Day 9: cookies don't work for ex02bis
 
-Rush 00: not attempted, I took a nap, I'm a litle sorry but not too much
+Rush 00: not attempted, I took a personal day, it happens.
 
 Rush 01: https://github.com/pontuslaandersson/php_rush01.git inccomplete, edits in progress ^_^ 
 
